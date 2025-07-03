@@ -1,2 +1,5 @@
 # Comprehensive_Quiz
 This repository contains code and reflection on predicting weight based on n height, age, and exercise level using "Gym Members Exercise Dataset"
+
+# Reflection
+The task was to predict weight using height, age, and exercise level from a gym members dataset, a standard regression problem. We addressed this by first loading and preprocessing the data, ensuring only relevant features were kept and checking for missing values. Exploratory data analysis followed, using histograms and scatter plots to visualize feature distributions and their relationship with weight, providing initial insights. A Linear Regression model was then trained on a split dataset to learn the patterns. Finally, the model's performance was evaluated using Mean Squared Error (MSE) on the test set, yielding an MSE of approximately 423.56. This value quantifies the model's accuracy in predicting weight based on the selected inputs. The process successfully demonstrated a typical machine learning workflow for a regression task, from data handling to model evaluation, highlighting the utility of Linear Regression for understanding linear relationships in the data.
